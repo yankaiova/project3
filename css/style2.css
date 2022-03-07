@@ -1,0 +1,142 @@
+/*Обнуление*/
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none; }
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+
+body{
+    max-width: 1440px;
+height: 1700px;
+background:  url('../img/ellipse_1_copy_4.png') 50% 130px no-repeat #e8e8e8;
+}
+
+.block{
+	padding:125px 0 137px 0;
+    max-width: 841px;
+	margin: 0px auto;
+height: 1064px;
+
+
+}
+.block-top{
+	text-align:center;
+	color: #273d46;
+	margin-bottom: 76px;
+}
+h1{
+    opacity: 0.6;
+    font-family: Arial;
+    line-height: 40px;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+}
+.text1{
+font-size: 36px;
+line-height: 50px;
+}
+.blok-image{
+	background-color: #ffffff;
+	padding: 10px;
+	width: 841px;
+height: 561px;
+box-shadow: 0px 15px 65px 0px rgba(15,16,16,0.15);
+}
+.image1{
+	width: 821px;
+height: 541px;
+}
+.block-bottom{
+	padding:90px 45px 0px 45px;
+}
+.block-text{
+	padding-bottom: 63px;
+	min-width:734px;
+	opacity: 0.8;
+font-size: 24px;
+line-height: 40px;
+color: #273d46;
+}
+
+li{
+	background: url('../img/check_icon_40\ \(1\).png') 2px no-repeat;
+	padding-left:40px;
+	line-height: 36px;
+	font-family: Arial;
+	font-size: 20px;
+}
+li:nth-child(1){
+	text-shadow: 0px 1px 0px rgba(0,0,0,0.3);
+	color: #273d46;
+}
+li:nth-child(2){
+	font-style: italic;
+	color: #80b7b3;
+}
+li:nth-child(3){
+	font-weight: 700;
+	color: #273d46;
+}
+li:nth-child(4){
+	opacity: 0.3;
+	text-decoration: line-through;
+	color: #273d46;
+	margin-bottom: 58px;
+}
+
+button{
+	border-radius: 25px;
+	display: inline-block;
+	width: 199px;
+	background:#80b7b3;
+height: 44px;
+box-shadow: inset 0px 6px 40px 0px rgba(128,183,179,0.54);
+}
+.string-button{
+	text-align: center;
+	font-family: Arial;
+line-height: 40px;
+font-weight: 400;
+text-transform: uppercase;
+letter-spacing: 0.2em;
+color: #ffffff;
+}
+.img-button{
+	margin-top: 13px;
+	margin-left: 8px;
+	width: 21px;
+    height: 14px;
+    opacity: 0.8;
+}
